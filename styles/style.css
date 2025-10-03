@@ -242,3 +242,56 @@ footer {
         width: 28%;
     }
 }
+
+@media(max-width: 920px) {
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    /* Sección 2 */
+    .seccion-2 {
+        min-height: 100vh;
+    }
+    .sec2-text p {
+        font-size: 1.3rem;
+    }
+
+    .sec2-cont-article {
+        padding-bottom: 60px;
+        gap: 2%;
+    }
+
+    .sec2-article {
+        width: 28%;
+    }
+
+    .sec2-article-text h3 {
+        font-size: 2rem;
+    }
+    .sec2-article-text p {
+        font-size: 1rem;
+    }
+
+    /* Sección 3 */
+    .sec3-text p {
+        font-size: 1.3rem;
+    }
+
+    .sec3-cont-article {
+        gap: 3%;
+    }
+
+    .sec3-article h3 {
+        font-size: 1.8rem;
+    }
+
+    .sec3-article p {
+        font-size: 1.2rem;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 1rem;
+    }
+}
