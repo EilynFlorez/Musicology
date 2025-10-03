@@ -368,11 +368,43 @@ footer {
 
     /* Footer */
     footer {
+        text-align: center;
         font-size: 0.8rem;
         min-height: 10vh;
     }
 }
 
 @media(max-width: 480px) {
-    
+    /* Header */
+    header {
+        min-height: 12vh;
+    }
+    .img-1 {
+        width: 80px;
+    }
+    /* Sección 1 */
+    .seccion-1 h1 {
+        font-size: 3rem;
+    }
+
+    .seccion-1 p {
+        font-size: 1.1rem;
+    }
+
+    /* Seccion 2 */
+    .seccion-2 {
+        gap: 40px;
+    }
+    .sec2-article {
+        width: 80%;
+    }
+
+    /* Seccion 3 */
+    .seccion-3 {
+        gap: 40px;
+    }
+
+    .sec3-article {
+        width: 80%;
+    }
 }
