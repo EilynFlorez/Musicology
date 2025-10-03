@@ -49,7 +49,6 @@ header {
 }
 
 .seccion-1 h1 {
-    color: rgb(255, 255, 255);
     font-size: 7rem;
     font-weight: 500;
 }
@@ -210,4 +209,36 @@ footer {
     width: 100%;
     min-height: 15vh;
     background-color: rgb(255, 99, 9);
+}
+
+@media(max-width: 1279px) {
+    /* Sección 1 */
+    .seccion-1 {
+        gap: 18px;
+    }
+    .seccion-1 h1 {
+        font-size: 5rem;
+    }
+
+    .seccion-1 p {
+        font-size: 1.5rem;
+    }
+
+    .boton-sec1 {
+        font-size: 1rem;
+    }
+
+    /* Sección 2 */ 
+    .sec2-cont-article {
+        padding-bottom: 80px;
+    }
+
+    /* Sección 3 */
+    .sec3-cont-article {
+        padding-bottom: 80px;
+    }
+
+    .sec3-article {
+        width: 28%;
+    }
 }
