@@ -8,12 +8,18 @@
     box-sizing: border-box;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3 {
     font-family: "oswald";
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 5rem;
 }
 
 h1, p {
     font-family: "montserrat";
+    color: rgb(255, 255, 255);
 }
 
 /* Estilos de la cabecera */
@@ -50,7 +56,6 @@ header {
 
 .seccion-1 p {
     width: 50%;
-    color: rgb(255, 255, 255);
     font-size: 2rem;
     margin-bottom: 3%;
 }
@@ -65,3 +70,133 @@ header {
 }
 
 /* Estilos de la sección 2 */
+.seccion-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 135vh;
+    background-color: rgb(255, 99, 9);
+}
+
+.sec2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5% 2%;
+    gap: 40px;
+}
+
+.sec2-text p {
+    width: 60%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.sec2-cont-article {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.sec2-article {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sec2-article img {
+    width: 100%;
+}
+
+.sec2-article-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 8%;
+    background-color: rgb(44, 44, 44);
+}
+
+.sec2-article-text h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.sec2-article-text p {
+    font-size: 1.3rem;
+}
+
+/* Estilos sección 3 */
+.seccion-3 {
+    width: 100%;
+    min-height: 135vh;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 2%;
+    gap: 40px;
+}
+
+.sec3-text p {
+    width: 60%;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.sec3-cont-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.sec3-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 99, 9);
+    width: 25%;
+    padding: 2%;
+    gap: 30px;
+    text-align: center;
+}
+
+.sec3-article img {
+    width: 40%;
+    margin: 20px;
+}
+
+.sec3-article h3 {
+    font-size: 2.2rem;
+}
+
+.sec3-article p {
+    font-size: 1.4rem;
+}
+
+.sec3-article a {
+    width: 100%;
+}
+
+.boton-sec3 {
+    width: 100%;
+    border: none;
+    padding: 20px 0px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}
