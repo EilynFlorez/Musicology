@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Estilos generales */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: "oswald";
 }
 
-p {
-    font-size: "montserrat";
+h1, p {
+    font-family: "montserrat";
 }
 
+/* Estilos de la cabecera */
 header {
     display: flex;
     justify-content: space-between;
@@ -22,14 +24,44 @@ header {
     background-color: rgb(44, 44, 44);
     width: 100%;
     min-height: 15vh;
-    padding: 0% 5%;
+    padding: 0% 6%;
 }
 
+/* Estilos de la sección 1 */
 .seccion-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
     width: 100%;
     min-height: 100vh;
     background-image: url('../assets/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    padding: 6%;
 }
+
+.seccion-1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+.seccion-1 p {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+
+.boton-sec1 {
+    background-color: rgb(255, 99, 9);
+    padding: 20px 80px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 530;
+    border: none;
+}
+
+/* Estilos de la sección 2 */
